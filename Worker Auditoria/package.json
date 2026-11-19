@@ -1,0 +1,16 @@
+{
+  "name": "auditoria-novembro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "worker:auditoria": "node index.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.1",
+    "amqplib": "^2.4.0",
+    "dotenv": "^18.0.10"
+  }
+}
